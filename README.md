@@ -1,2 +1,2 @@
-# Pandey_Cofee_Shop
+CofeeShop
 a website for my cofee shop
