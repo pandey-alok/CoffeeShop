@@ -1,2 +1,2 @@
 #CofeeShop
-a website for my cofee shop
+a website for my coffee shop
