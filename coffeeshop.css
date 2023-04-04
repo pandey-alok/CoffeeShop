@@ -1,31 +1,28 @@
 .container{
-    height: 1500px;
+    height: 300px;
     border: 2px solid red;
-
+    position: relative;
+    width: 50%;
+    float: right;
 }
-.child1{
+
+.div1{
     height: 100px;
     width: 100px;
-    border: 2px solid green;
-    position: relative;
-    left: 30px;
-    top: 30px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    z-index: 1;
+
 }
 
-.child2{
+.div2{
     height: 100px;
     width: 100px;
-    border: 2px solid blue;
-    position: relative;
-    left: 30px;
-    top: 35px;
-}
-
-.footer{
-    height: 150px;
-    width: 100%;
-    background-color: green;
-    color: brown;
-    position: fixed;
-    bottom: 0;
+    background-color: brown;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    z-index: 2;
 }
