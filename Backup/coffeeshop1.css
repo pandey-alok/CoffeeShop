@@ -1,0 +1,30 @@
+*{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.myclass{
+    color: red;
+}
+
+#myid{
+    background-color: green;
+}
+
+[href="https://www.google.com/?gws_rd=ssl"]{
+    color: red;
+}
+
+h1,div{
+    color: blue;
+}
+
+.fdiv{
+    border: 1px solid red;
+    height: 200px;
+    padding: 0px 20px 0px 20px;
+}
+
+.family-tree span{
+    color: blue;
+}
