@@ -1,28 +1,60 @@
-.container{
-    height: 300px;
-    border: 2px solid red;
-    position: relative;
-    width: 50%;
+body{
+    margin: 0px;
+}
+.coffee-header{
+    position: fixed;
+    left: 0px ;
+    right: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: #0a2d42;
+}
+.div-logo{
+    margin: 10px;
+    float: left;
+    position: absolute;
+    top: 0px;
+    text-align: center;    
+}
+
+.logo-text{
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.coffee-nav{
     float: right;
+    height: 100%;
 }
 
-.div1{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-    position: absolute;
-    top: 0px;
-    left: 10px;
-    z-index: 1;
-
+.coffee-nav a{
+    color: aliceblue;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-top: 12%;
+    display: inline-block;   
 }
 
-.div2{
-    height: 100px;
-    width: 100px;
-    background-color: brown;
+.site-content{
     position: absolute;
-    top: 0px;
-    left: 15px;
-    z-index: 2;
+    top: 78px;
+    width: 100%;
+}
+
+.bgimage{
+    background-image: url("Images/background-image.jpg");
+    height: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.quote{
+    color: antiquewhite;
+    font-family:Helvetica, sans-serif;
+    position: relative;
+    top: 10%;
 }
