@@ -54,11 +54,17 @@ body{
 }
 
 .quote{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family:Helvetica, sans-serif;
     position: relative;
     top: 10%;
 }
+
+#qbackground{
+    background-color: #10101199;
+}
+
+
 
 .item-list{
     width: 100%;
