@@ -10,6 +10,7 @@ To view the website, simply clone the repository to your local machine and open 
 
 * HTML5
 * CSS3
+* JS
 
 ## Authors
 
